@@ -8,12 +8,13 @@ import './App.css';
 //import UseMemoComponent from './hooks/useMemo';
 //import UseCallbackComponent from './hooks/useCallback';
 //import UseImperativeHandleComponent from './hooks/useImperativeHandle';
-import UseLayoutEffectComponent from './hooks/useLayoutEffect';
+//import UseLayoutEffectComponent from './hooks/useLayoutEffect';
+import UseDebugValueComponent from './hooks/useDebugValue';
 
 function App() {
   return (
     <div className="App">
-      <UseLayoutEffectComponent />
+      <UseDebugValueComponent />
     </div>
   );
 }
