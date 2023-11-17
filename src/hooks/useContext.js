@@ -14,7 +14,10 @@ export default function useContextComponent() {
 }
 
 
-
+function EmojiComponent () {
+    const mood = useContext(MoodContext)
+    return <p>{mood}</p>
+}
 function ChildComponent(props) {
     return <MoodContext.Consumer>
         {
