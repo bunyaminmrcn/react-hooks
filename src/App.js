@@ -7,12 +7,13 @@ import './App.css';
 //import UseReducerComponent from './hooks/useReducer';
 //import UseMemoComponent from './hooks/useMemo';
 //import UseCallbackComponent from './hooks/useCallback';
-import UseImperativeHandleComponent from './hooks/useImperativeHandle';
+//import UseImperativeHandleComponent from './hooks/useImperativeHandle';
+import UseLayoutEffectComponent from './hooks/useLayoutEffect';
 
 function App() {
   return (
     <div className="App">
-      <UseImperativeHandleComponent />
+      <UseLayoutEffectComponent />
     </div>
   );
 }
