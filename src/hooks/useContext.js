@@ -16,6 +16,9 @@ export default function useContextComponent() {
 
 
 function ChildComponent(props) {
-    const mood = useContext(MoodContext)
-    return (<p> {mood}</p>)
+    return <MoodContext.Consumer>
+        {
+            ({mood}) => <p>{mood}</p>
+        }
+    </MoodContext.Consumer>
 }
