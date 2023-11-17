@@ -6,12 +6,13 @@ import './App.css';
 //import UseRefComponent from './hooks/useRef';
 //import UseReducerComponent from './hooks/useReducer';
 //import UseMemoComponent from './hooks/useMemo';
-import UseCallbackComponent from './hooks/useCallback';
+//import UseCallbackComponent from './hooks/useCallback';
+import UseImperativeHandleComponent from './hooks/useImperativeHandle';
 
 function App() {
   return (
     <div className="App">
-      <UseCallbackComponent />
+      <UseImperativeHandleComponent />
     </div>
   );
 }
